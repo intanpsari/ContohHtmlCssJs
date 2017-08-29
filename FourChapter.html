@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Four Chapter</title>
+	<script src="password.js"></script>
+</head>
+<body>
+	<p>Ini adalah website rahasia. Hanya kamu yang tau kodenya yang bisa masuk</p>
+	<form>
+		<input type="password" name="password">
+		<input type="button" name="submit" value="Submit Password" onclick="mintaPassword(form.password.value)">
+		<input type="button" name="get-Password" value="get Password" onclick="getPassword(mintaPassword(form.password.value))">
+	</form>
+	
+</body>
+</html>

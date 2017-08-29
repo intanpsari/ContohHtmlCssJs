@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second Chapter</title>
+
+	<script type="text/javascript">
+		function gantiWarnaBackground(colorName){
+			//body
+			document.bgColor= colorName;
+		}
+		function bikinAlert(konten){
+			alert(konten);
+		}
+	</script>
+
+
+</head>
+<body>
+	<form>
+		<input type="button" name="warna-ijo" value="green" onclick="bikinAlert(this.value)">
+		<input type="button" name="warna-biru" value="blue" onclick="gantiWarnaBackground(this.value)">
+		<input type="button" name="warna-merah" value="red" onclick="gantiWarnaBackground(this.value)">
+		<input type="button" name="warna-aqua" value="aqua" onclick="gantiWarnaBackground(this.value)">
+	</form>
+</body>
+</html>
